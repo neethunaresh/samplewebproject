@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sanity" parallel="tests">
+	<test name="bookingthroughchrome">
+	
+	<parameter name="browser" value="firefox"/>
+	
+		<classes>
+			<class name="com.guarented.ecommerce.Testplans.BokItemInGuarented">
+				<methods>
+					<!-- <include name="bookitemthroughwholesearch"/> 
+					 <include name="bookItemthroughSearch"/>  -->
+					<include name="bookIteminthroughproducts"/>
+				<!-- 	<include name="bookItemthroughRENTTOOWN"/>
+					 <include name="bookitemthroughcartwhencartisempty"/> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	<test name="bookingthroughfirefox">
+	<parameter name="browser" value="chrome"/>
+		<classes>
+			<class name="com.guarented.ecommerce.Testplans.BokItemInGuarented">
+				<methods>
+			<!-- 		<include name="bookitemthroughwholesearch"/> 
+					 <include name="bookItemthroughSearch"/> --> 
+					<include name="bookIteminthroughproducts"/>
+			<!-- 		<include name="bookItemthroughRENTTOOWN"/>
+					 <include name="bookitemthroughcartwhencartisempty"/> -->
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+	
+	
+	
+</suite>

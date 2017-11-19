@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sanity]">
+  <test name="Cartpage(failed)">
+    <classes>
+      <class name="com.guarented.ecommerce.Testplans.SignuppageTestPlan">
+        <methods>
+          <include name="testproductsthroughexcel"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.guarented.ecommerce.Testplans.SignuppageTestPlan -->
+    </classes>
+  </test> <!-- Cartpage(failed) -->
+</suite> <!-- Failed suite [sanity] -->
